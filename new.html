@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="new.css">
+    <title> My Personal Portfolio</title>
+    <script src="https://kit.fontawesome.com/790a8e59e2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span style="color:red">CHRISTI</span>ANA.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi i'm <span>Christiana</span><br> Ojo from Nigeria</h1>
+            </div>
+        </div>
+    </div>
+<!----------------about---------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/newpic1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm an outstanding person, no matter what type of situation 
+                        i find myself in. I have worked with high minded people who have lead me and 
+                        also confindent in my abilities. I have also trained my self to also maitain 
+                        good properties and skills which can benefit your company.</p>
+
+                    <div class="tab-titles">
+                            
+                        <div class="tab-contents" id="skills">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <ul>
+                                <li><span>UI/UX</span><br>Desiging Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Andriod/iOS apps</li>
+                            </ul>
+                        </div>
+                        <br>
+
+                        <div class="tab-contents" id="experience">
+                            <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                            <ul>
+                                <li><span>2022-currrent</span><br>UI/UX Desgin Training at Zion Study Center</li>
+                                <li><span>2022-current</span><br>UI/UX Executive at Tiana Tech Ltd.</li>
+                                <li><span>2022-current</span><br>Internship at Zion Study Center</li>
+                            </ul>
+                        </div>
+                        <br>
+                        
+                        <div class="tab-contents" id="education">
+                            <p class="tab-links"  onclick="opentab('education')">Education</p>
+                            <ul>
+                                <li><span>current</span><br>UI/UX Desgin Training at Zion Study Center</li>
+                                <li><span>2024</span><br>Bsc. in Computer Information System from Adeleke University</li>
+                                <li><span>2019</span><br>WAEC from Anglican Comprehensive Secondary School</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--------------------services--------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>I design websites that are user friendly and user experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>UI/UX Design</h2>
+                    <p>I design websites that are user friendly and user experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>App Design</h2>
+                    <p>I design websites that are user friendly and user experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Graphics Design</h2>
+                    <p>I design logos and flyers that are well befitting for your company.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>  
+    
+<!--------------------portfolio-------------->    
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/snake.jpg">
+                    <div class="layer">
+                        <h3>Snake Game</h3>
+                        <p>The snake game is a relaxing game. it's a very fun game to play.
+                            Download it from play store.
+                        </p>
+                        <a href="#">Click Here</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/newpic4.jpg">
+image/                   <div class="layer">
+                        <h3>Tik Tac Toe</h3>
+                        <p>The Tik Tac Toe is a relaxing game. it's a very fun game to play.
+                            Download it from play store.
+                        </p>
+                        <a href="#">Click Here</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/survey.jpg">
+                    <div class="layer">
+                        <h3>Medical Survey</h3>
+                        <p>The snake game is a relaxing game. it's a very fun game to play.
+                            Download it from play store.
+                        </p>
+                        <a href="#">Click Here</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+<!----------------contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> ojotimi2004@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 081021345600</p>
+                <p><i class="fa-solid fa-square-phone"></i>08102145605</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="image/OJO CHRISTIANA RESUME.docx" download class="btn btn2">Download cv</a>
+            </div> 
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email " required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &copy; christiana.</p>
+    </div>
+</div>
+
+    <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tablink of tabcontents){
+                    tabcontents.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+
+
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        
+        function openmenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
